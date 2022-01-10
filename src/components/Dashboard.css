@@ -1,0 +1,138 @@
+.add-btn {
+  background-color: #3aab7b;
+  border: 1px solid #3aab7b;
+  padding: 6px 12px;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+.delete-btn {
+  background-color: #c82333;
+  border: 1px solid #c82333;
+  padding: 6px 12px;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+.radio-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-wrapper {
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.top-btn-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-left: 15px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.radio-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+.res-size {
+  font-size: 14px !important;
+}
+
+.requiredelement:after {
+  content: "  *";
+  color: red;
+  font-size: 14px;
+  padding-left: 2px;
+}
+
+.action-btn{
+  border: none;
+  padding: 10px;
+}
+
+.text-placeholder::placeholder{
+  /* color: #000; */
+}
+
+.actions-styling{
+  display: flex;
+  align-items: center;
+  margin-top: -1px;
+  gap: 20px;
+}
+
+.action-childs{
+  
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 22px;
+  }
+
+  .client-heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+.form-wrapper {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+  .button-wrapper {
+   margin-top: 30px;
+    /* flex-direction: column; */
+  }
+  .radio-wrapper {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .top-btn-wrapper {
+    flex-direction: column;
+    align-items: center;
+    /* align-items: flex-start; */
+  }
+
+  .heading {
+    font-size: 18px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .client-heading {
+    font-size: 16px;
+  }
+
+  .res-size {
+    font-size: 12px !important;
+  }
+
+  .file-res-size {
+    font-size: 12px;
+  }
+}

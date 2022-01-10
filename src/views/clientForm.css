@@ -1,0 +1,8 @@
+.profilePic {
+    width: 100%;
+    max-width: 150px;
+}
+.profilePic:hover {
+    width : 100%;
+    max-width: 400px;
+}
